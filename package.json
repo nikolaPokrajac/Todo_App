@@ -4,11 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "deploy": "gh-pages -d ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
